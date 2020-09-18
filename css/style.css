@@ -1,0 +1,115 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 2%;
+	
+	
+}
+.green-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #22B573;
+	border: 5px solid #006837;
+	
+}
+
+.green-box p {
+	color: #FCEE21;
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 14px;
+	right: 15px;
+	bottom: 5px;
+	font-family: 'Indie Flower';
+	
+}
+.navigation{
+	position: absolute;
+	top: 45px;
+	left: 57px;
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 58px;
+}
+.nav-font{
+	font-size: 48px;
+	color: #ffff;
+	text-transform: uppercase;
+	font-family: 'Indie Flower';
+}
+.logo{
+	position: absolute;
+	top: 37px;
+	right: 55px;
+	width: 700px;
+	height: 600px;
+}
+.white-box{
+    width: 618px;
+	height: 449px;
+	background-color:  #ffff;
+	position: absolute;
+	bottom: 27px;
+	left: 27px;
+
+}
+
+.white-box p {
+	color: #39B54A;
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 14px;
+	right: 15px;
+	bottom: 5px;
+	font-family: 'Indie Flower';
+}
+.yellow-small{
+	width: 300px;
+	height: 300px;
+	background-color: #006837;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	 
+	/*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.3s;*/
+    transition: all 2s ease-in 0.3s;
+}
+.yellow-small p{
+	color: #FFFF00;
+	position: absolute;
+	font-size: 34px;
+    top:45%;
+	left: 15%;
+	transform: translate( -50%, -50%) rotate(45deg);
+	font-family: 'Indie Flower';
+	white-space: nowrap;
+
+	transition: all 2s ease-in 0.3s;
+}
+.yellow-small:hover {
+        background: yellow;
+
+}
+
+.yellow-small p:hover{
+	color: red;
+	cursor:pointer;
+	transform: translate( -50%, -50%) rotate(0deg);
+}
+
+/*.white-box:hover {
+	background: lightblue;
+}
+.white-box:hover .yellow-small p {
+	  color: red;
+	  transform: translate( -50%, -50%) rotate(0deg);
+}
+*/
